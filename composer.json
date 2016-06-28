@@ -1,0 +1,14 @@
+{
+    "name": "saasovation/issuetracker",
+    "description": "iddd issuetracker exercise from iddd workshop.",
+    "autoload": {
+        "psr-4": {"Issuetracker\\": "src/"}
+    },
+    "require": {
+        "php": "^7.0",
+        "ramsey/uuid" : "~2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
